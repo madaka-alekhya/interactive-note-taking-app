@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("images/backgroundimg.jpg");
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    padding:10px;
+    color:#fff;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    width:50%;
+    margin:auto;
+    color:#fff;
+}
+
+input{
+    border-radius: 10px;
+    padding:10px;
+    margin:1;
+}
+form button{
+    padding:10px;
+    margin-top:10px;
+    border-radius: 10px;
+    background:rgb(238, 156,156);
+    cursor: pointer;
+    
+}
+form button:hover{
+    background: rgb(199, 85, 85);
+    color:#fff;
+}
+.notes-container{
+    width: 50%;
+    margin:auto;
+
+}
+ul{
+    display: flex;
+    flex-direction: none;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    position:relative;
+    margin-top:10px;
+    display:inline-block;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #ccc;
+    width:50%;
+    height:150px;
+    padding: 20px;
+    background: #fff;;
+    border:1px solid black;
+    margin-left:10px;
+    
+}
+li h6{
+    font-size: 26px;
+    padding:20px;
+    margin:auto;
+
+}
+li p{
+    margin:auto;
+    font-size: 20px;
+    padding:20px;
+
+}
+li caption{
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:10px;
+}
+li:hover{
+    cursor: pointer;
+    box-shadow:20px 20px 40px #ccc;
+
+}
